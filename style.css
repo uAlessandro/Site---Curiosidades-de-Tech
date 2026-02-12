@@ -1,6 +1,12 @@
 @charset "UTF-8";
+@font-face {
+    font-family: 'IDroid';
+    src: url('fontes/IDroid.otf');
+}
 body{
     background-color: #84E1AD;
+    
+    
 
 }
 header{
@@ -8,12 +14,17 @@ header{
     padding: 10px 10px;
     color: white;
     text-align: center;
+    width:100% ;
+    padding: 10px 10px;
+    
 
     
 }
 header > p {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
+
+    
 }
 nav{
     text-align: left;
@@ -28,16 +39,48 @@ nav > a {
     font-weight: bolder;
     text-decoration: none;
 }
-section#mascote > h2{
-    font-family: fontes/idroid/IDroid
+section.h3> h3{
+    font-family: IDroid, Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    color: #186239;
+    background: linear-gradient(45deg, #2c9d5f32, white);
+    padding-left: 10px;
+    
+    
+    
     
 }
+section.h3> p{
+    text-indent: 20px;
+    text-align: left;
+    font-size: 18px ;
+    text-align: justify;
+}
+    
+section#historia > h2{
+    font-family: IDroid, Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    color: #186239;
+
+}
+section#historia >p{
+     text-indent: 20px;
+    text-align: left;
+    font-size: 18px ;
+    text-align: justify;
+
+}
+
 main{
     background-color: white;
-    width:600px;
-    height: 800px;
+    width:900px;
+    height: 3100px;
     text-align: center;
     margin: auto;
     padding: 10px 10px;
 
+}
+picture>p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

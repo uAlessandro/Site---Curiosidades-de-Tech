@@ -2,9 +2,12 @@
 @font-face {
     font-family: 'IDroid';
     src: url('fontes/IDroid.otf');
+
 }
 body{
     background-color: #84E1AD;
+    max-width: 100%;
+    max-height: 100%;
     
     
 
@@ -16,6 +19,7 @@ header{
     text-align: center;
     width:100% ;
     padding: 10px 10px;
+   
     
 
     
@@ -39,7 +43,7 @@ nav > a {
     font-weight: bolder;
     text-decoration: none;
 }
-section.h3> h3{
+.h3> h3{
     font-family: IDroid, Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
     color: #186239;
@@ -50,7 +54,7 @@ section.h3> h3{
     
     
 }
-section.h3> p{
+.h3> p{
     text-indent: 20px;
     text-align: left;
     font-size: 18px ;
@@ -70,11 +74,45 @@ section#historia >p{
     text-align: justify;
 
 }
+#video {
+    background-color: #186239;
+    padding: 20px 10px;
+}
+section>iframe{
+    max-width: 100%;
+    max-height: 100%;
+}
+#aprender-mais{
+    background-color: white;
+    max-width: 100%;
+    margin-right: 100%;
+    
+}
+
+section>h4 {
+    background-color: #39cc7b;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    font-size: 16px;
+    padding: 10px 10px;
+    text-align: left;
+
+}
+
+#aprender{
+    background-color: #91f8be6d;
+    border-radius: 10px;
+    
+}
+
+    
+    
 
 main{
     background-color: white;
-    width:900px;
-    height: 3100px;
+    width:100%;
+    max-width: 800px;
+    height: auto;
     text-align: center;
     margin: auto;
     padding: 10px 10px;
@@ -83,4 +121,27 @@ main{
 picture>p{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.list {
+  list-style: none; 
+  padding-left: 10px;
+  text-align: left;
+  padding:0px 10px 20px 10px ;
+}
+
+.list li::before {
+  content: "✔ ";
+  color: black;
+  font-weight: bold;
+  
+}
+
+#aprender>p{
+    text-indent: 20px;
+    text-align: left;
+    padding: 10px 10px;
+    font-size: 18px;
+    
+   
+
 }

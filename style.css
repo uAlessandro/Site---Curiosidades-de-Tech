@@ -2,46 +2,59 @@
 @font-face {
     font-family: 'IDroid';
     src: url('fontes/IDroid.otf');
-
 }
+*{
+    box-sizing: border-box;
+}
+
+
 body{
     background-color: #84E1AD;
-    max-width: 100%;
-    max-height: 100%;
-    
+    margin: 0px;
+    padding: 0px;
+
     
 
 }
 header{
     background-color: #2C9D5E;
-    padding: 10px 10px;
+    padding: 10px;
+    width:100% ;
+    text-transform: capitalize;
+   
+
+    }
+h1{
     color: white;
     text-align: center;
-    width:100% ;
-    padding: 10px 10px;
-   
-    
+    padding: 10px;
+    font-style:initial ;
 
-    
 }
 header > p {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
+    text-align: center;
+    color: white;
 
     
 }
 nav{
     text-align: left;
     color: white;
-    text-align: 40px;
+    padding-left: 40px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 nav > a {
-    margin-right: 20px;
+    margin-right: 10px;
     color: white;
-    font-weight: bolder;
+    font-weight: bold ;
     text-decoration: none;
+    font-size: auto;
+    
+
+    
 }
 .h3> h3{
     font-family: IDroid, Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
@@ -60,6 +73,11 @@ nav > a {
     font-size: 18px ;
     text-align: justify;
 }
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
     
 section#historia > h2{
     font-family: IDroid, Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
@@ -77,15 +95,23 @@ section#historia >p{
 #video {
     background-color: #186239;
     padding: 20px 10px;
+    
 }
-section>iframe{
+iframe{
     max-width: 100%;
     max-height: 100%;
+}
+aside{
+    text-indent: 20px;
+    text-align: left;
+    padding: 10px 10px;
+    font-size: 18px;
+
 }
 #aprender-mais{
     background-color: white;
     max-width: 100%;
-    margin-right: 100%;
+   
     
 }
 
@@ -97,16 +123,7 @@ section>h4 {
     padding: 10px 10px;
     text-align: left;
 
-}
-
-#aprender{
-    background-color: #91f8be6d;
-    border-radius: 10px;
-    
-}
-
-    
-    
+}   
 
 main{
     background-color: white;
@@ -128,20 +145,55 @@ picture>p{
   text-align: left;
   padding:0px 10px 20px 10px ;
 }
+.listcomplet{
+    display: flex;
+    gap: px;
+    text-decoration: none;
+}
 
 .list li::before {
   content: "✔ ";
   color: black;
   font-weight: bold;
   
+  
 }
+abbr[title]{
+    text-decoration: none !important;
+    border-bottom: none !important;
+    cursor: auto;
+}
+
+#aprender{
+    background-color: #91f8be6d;
+    border-radius: 10px;
+    
+}
+
+
 
 #aprender>p{
     text-indent: 20px;
     text-align: left;
     padding: 10px 10px;
     font-size: 18px;
-    
-   
-
+}
+#aprender-externa>p
+{
+    text-indent: 20px;
+    text-align: left;
+    padding: 10px 10px;
+    font-size: 18px;
+}
+a:hover{
+    background-color: #376049;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+footer{
+    background-color: #186239;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px;
+    color: white;
 }

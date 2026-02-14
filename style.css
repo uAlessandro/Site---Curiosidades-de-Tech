@@ -21,6 +21,8 @@ header{
     padding: 10px;
     width:100% ;
     text-transform: capitalize;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.179);
+    background: linear-gradient(#2C9D5E, #205e3f);
    
 
     }
@@ -28,14 +30,17 @@ h1{
     color: white;
     text-align: center;
     padding: 10px;
-    font-style:initial ;
+    font-style:initial;
 
 }
 header > p {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     color: white;
+    
+
+
 
     
 }
@@ -52,11 +57,18 @@ nav > a {
     font-weight: bold ;
     text-decoration: none;
     font-size: auto;
-    
 
-    
 }
-.h3> h3{
+a{
+    text-decoration: none;
+}
+.botao:hover{
+    background-color: #376049;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.bloco3> h3{
     font-family: IDroid, Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
     color: #186239;
@@ -67,25 +79,31 @@ nav > a {
     
     
 }
-.h3> p{
+.bloco3> p{
     text-indent: 20px;
     text-align: left;
     font-size: 18px ;
     text-align: justify;
 }
+
 img{
     max-width: 100%;
     height: auto;
+    display: auto;
+}
+#bugdroid>img{
     display: block;
+    margin: auto;
+    
 }
     
-section#historia > h2{
+#historia > h2{
     font-family: IDroid, Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
     color: #186239;
 
 }
-section#historia >p{
+#historia >p{
      text-indent: 20px;
     text-align: left;
     font-size: 18px ;
@@ -95,11 +113,14 @@ section#historia >p{
 #video {
     background-color: #186239;
     padding: 20px 10px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.194);
+   
     
 }
 iframe{
     max-width: 100%;
-    max-height: 100%;
+    display: block;
+    margin: auto;
 }
 aside{
     text-indent: 20px;
@@ -108,12 +129,9 @@ aside{
     font-size: 18px;
 
 }
-#aprender-mais{
-    background-color: white;
-    max-width: 100%;
-   
+
     
-}
+    
 
 section>h4 {
     background-color: #39cc7b;
@@ -135,10 +153,8 @@ main{
     padding: 10px 10px;
 
 }
-picture>p{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
+
 .list {
   list-style: none; 
   padding-left: 10px;
@@ -147,7 +163,7 @@ picture>p{
 }
 .listcomplet{
     display: flex;
-    gap: px;
+    gap: 100px;
     text-decoration: none;
 }
 
@@ -177,6 +193,9 @@ abbr[title]{
     text-align: left;
     padding: 10px 10px;
     font-size: 18px;
+    
+   
+   
 }
 #aprender-externa>p
 {
@@ -185,15 +204,24 @@ abbr[title]{
     padding: 10px 10px;
     font-size: 18px;
 }
-a:hover{
-    background-color: #376049;
-    padding: 10px 10px;
-    border-radius: 5px;
-}
+
+
 footer{
     background-color: #186239;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     padding: 5px 5px;
     color: white;
+    box-shadow: 2px 0px 0px 0px rgba(0, 0, 0, 0.179);
+   
 }
+span{
+    color: #0d542d;
+    background-color: #7cf0ae;
+    padding: 0px 5px 0px 5px;
+    font-weight: bolder;
+}
+.spans::after { content: "🔗"};
+
+    
+
